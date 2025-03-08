@@ -1,0 +1,11 @@
+.lectures-container {
+    display: flex;
+    background-color: #f1f1f1;
+  }
+  
+  .lectures-container .item {
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+  }

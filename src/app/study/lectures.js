@@ -1,0 +1,31 @@
+export default [{
+    id:1,
+    lectureNo:1,
+    day:'Monday',
+    subject:'Maths'
+},{
+    id:2,
+    lectureNo:2,
+    day:'Tuesday',
+    subject:'Physics'
+},{
+    id:3,
+    lectureNo:3,
+    day:'Wednesday',
+    subject:'Chemistry'
+},{
+    id:4,
+    lectureNo:4,
+    day:'Thursday',
+    subject:'Biology'
+},{
+    id:5,
+    lectureNo:5,
+    day:'Friday',
+    subject:'English'
+},{
+    id:6,
+    lectureNo:6,
+    day:'Saturday',
+    subject:'Hindi'
+}]
