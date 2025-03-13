@@ -6,7 +6,6 @@ const studentDetails = ({params}) => {
     if(!studentDetail) {
         notFound();
     }
-    console.log(studentDetail,"===========studentDetail")
   return (
     <div>
       <h1>Student Details:</h1> 
@@ -18,3 +17,11 @@ const studentDetails = ({params}) => {
 }
 
 export default studentDetails;
+
+export async function generateStaticParams() {
+    return studentsData.map((student)=>{
+      return {
+        studentId: student.id.toString()
+      }
+    });
+}

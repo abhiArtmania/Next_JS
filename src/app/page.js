@@ -8,6 +8,7 @@ export default function Home() {
   const navigateToPage = (url) => {
     router.push(url,{queryParams:{userId:'123'}});
   }
+  console.log(process.env,"===================")
   return (
     <div className={styles.main}>
       <h1>Home</h1>

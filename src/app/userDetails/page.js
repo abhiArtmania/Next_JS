@@ -10,7 +10,6 @@ async function getUsers(){
 
 const UserDetails = async () => {
     const users = await getUsers();
-    console.log(users,"=========users")
   return (
     <div>
       <h1>User Details</h1>

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const productDetails = ({product}) => {
+const ProductDetails = ({product}) => {
     const [showDetails,setShowDetails] = useState(false);
     const toggleButton = () => {
         setShowDetails(!showDetails);
@@ -23,4 +23,4 @@ const productDetails = ({product}) => {
     )
 }
 
-export default productDetails;
+export default ProductDetails;

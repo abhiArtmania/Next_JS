@@ -12,3 +12,17 @@ const Lecture = ({params}) => {
 }
 
 export default Lecture;
+
+export async function generateStaticParams(){
+    return [
+        {
+            lecture: ['Monday', '1']
+        },
+        {
+            lecture: ['Tuesday', '2']
+        },
+        {
+            lecture: ['Wednesday', '3']
+        }
+    ]
+}
